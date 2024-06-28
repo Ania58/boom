@@ -3,15 +3,58 @@ body {
   background-color: #f0f0f0;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
 }
 
 h1 {
   color: #333;
+  margin-top: 20px;
 }
-#result .green {
+
+p {
+  margin: 10px 0;
+}
+
+input#userInput {
+  margin-bottom: 10px;
+  height: 20px;
+  width: 30px;
+}
+
+p.countdownText {
+  color: red;
+}
+
+#result h2 {
+  margin: 10px;
+}
+
+#result.green {
   color: #2ecc71;
 }
 
-#result .red {
+#result.red {
   color: #e74c3c;
+}
+
+.finalResult {
+  margin-top: 40px;
+  padding: 20px;
+  color: #555555;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#restart {
+  margin-top: 20px;
+  background-color: #3498db;
+  color: white;
+  height: 40px;
+  width: 120px;
+  border: none;
 }
